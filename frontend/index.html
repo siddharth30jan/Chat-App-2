@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+    <title>MESSAGE CORNER</title>
+</head>
+<body>
+    <h1>MESSAGE BOX</h1>
+    <div id="login-div">
+        <input type="text" placeholder="username" id="loginbox">
+        <button id="loginbtn">LOGIN</button>
+    </div>
+    <div id="chat-div" style="display: none">
+        <input type="text" placeholder="new message" id="msgbox">
+    <button id="sendmsg">SEND</button>
+    <ul id="msglist"></ul>
+    </div>
+</body>
+</html>
