@@ -1,2 +1,2 @@
 # Chat-App-2
-A little bit enhancement to the prev one
+A Chat App which works on a server ceated by NODE JS
